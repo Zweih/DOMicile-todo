@@ -2,20 +2,34 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>DOMicile Todo</title>
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/theme.css">
     <script type="text/javascript" src="./src/todo.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
     </script>
   </head>
   <body>
-    <ul>
-      <li>test</li>
-      <li class="test-2">test2</li>
-      <li>test3</li>
+    <ul class="todos">
+      <li class="todo ex-todo">
+        <h1>Example todo</h1>
+        <p>Example body</p>
+        <button class="todo-delete">Delete Todo</button>
+      </li>
+      <li>
+        <form class="new-todo">
+          <h1>New Todo</h1>
+          <label>
+            Title:
+            <input class="title-input" type="text">
+          </label>
+          <label>
+            Body:
+            <textarea></textarea>
+          </label>
+          <button class="todo-create">Create Todo</button>
+        </form>
+      </li>
     </ul>
-
-    <div class="test-4">
-      <p>test4</p>
-    </div>
   </body>
 </html>

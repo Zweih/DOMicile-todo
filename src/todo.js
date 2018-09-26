@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const domicile = __webpack_require__(/*! ../src/domicile.js */ \"./src/domicile.js\");\n\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n  console.log(\"Main loaded!\");\n  console.log($d(\"li\"));\n});\n\n//# sourceURL=webpack:///./lib/main.js?");
+eval("const domicile = __webpack_require__(/*! ../src/domicile.js */ \"./src/domicile.js\");\n\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n  \n});\n\n\n\n//# sourceURL=webpack:///./lib/main.js?");
 
 /***/ }),
 

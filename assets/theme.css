@@ -1,0 +1,47 @@
+.todos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 100px;
+}
+
+.todo, .new-todo {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: grey 1px solid;
+  border-radius: 3px;
+  padding: 10px 10px 10px 10px;
+  height: max-content;
+  min-height: 125px;
+}
+
+.new-todo label {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.new-todo input, .new-todo textarea {
+  width: 200px;
+}
+
+.todo h1, .new-todo h1 {
+  font-size: 24px;
+}
+
+.todo p {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.todo-delete, .todo-create {
+  margin-top: 10px;
+  align-self: center;
+  height: 18px;
+  width: 100px;
+}
