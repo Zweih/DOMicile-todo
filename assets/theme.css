@@ -1,13 +1,18 @@
+body {
+  background-color: black;
+}
+
 .todos {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: 100%;
   margin: 100px;
 }
 
 .todo, .new-todo {
+  background-color: aqua;
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -17,6 +22,7 @@
   padding: 10px 10px 10px 10px;
   height: max-content;
   min-height: 125px;
+  margin: 5px 5px 5px 5px;
 }
 
 .new-todo label {
