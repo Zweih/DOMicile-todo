@@ -25,6 +25,10 @@ body {
   margin: 5px 5px 5px 5px;
 }
 
+.new-todo {
+  background-color: orange;
+}
+
 .new-todo label {
   margin-top: 10px;
   display: flex;
